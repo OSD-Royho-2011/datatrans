@@ -16,6 +16,7 @@ class Datatrans::XML::Transaction
         xml.amount params[:amount]
         xml.currency params[:currency]
         xml.uppTransactionId params[:transaction_id]
+        xml.sign params[:sign2]
       end
     end
   end
